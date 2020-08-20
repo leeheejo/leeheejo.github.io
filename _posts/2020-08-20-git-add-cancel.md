@@ -9,9 +9,6 @@ git add 취소하기
 
 ​```
 $git add --all
-
-
-//모든 파일이 staging area에 올라감.
 ​```
 
 `git reset HEAD [file]` 명령어를 통해 해당 파일을 git add 취소 하거나, 
