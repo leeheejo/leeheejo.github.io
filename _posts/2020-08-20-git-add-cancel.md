@@ -3,7 +3,6 @@ title: "git add 취소하기"
 date: 2020-08-20 14:28:28 -0400
 categories: git
 ---
-git add 취소하기 
 
 실수로 git add --all를 한 후, 일부 혹은 전체 파일을 제외하고 싶은 경우 
 
