@@ -7,6 +7,8 @@ categories: programming
 코드리뷰 관련 강연을 듣다가 지켜야할 수칙(?) 중에 `코드 컨벤션`이라는 단어가 나왔는데 무슨 뜻인지 몰라서 내용을 찾아봄. 
 
 `convention : 관습, 관례`
+
+
 **Coding conventions are a set of guidelines for a specific programming language that recommend programming style, practices, and methods for each aspect of a program written in that language.** 
 
 These conventions usually cover file organization, indentation, comments, declarations, statements, white space, naming conventions, programming practices, programming principles, programming rules of thumb, architectural best practices, etc. 
