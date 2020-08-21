@@ -4,4 +4,4 @@ date: 2020-08-21
 categories: java design-pattern
 ---
 
-<http://novemberde.github.io/2017/05/21/Javascript_policy.html>
+<https://www.tutorialspoint.com/design_pattern/>
