@@ -37,7 +37,7 @@ tmp2 = 'test2' // Uncaught TypeError:Assignment to constant variable.
 <https://ojava.tistory.com/144>
 <https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d>
 
-`호이스팅(Hoisting)이란, 함수 안에 있는 `선언`들을 모두 끌어올려서 해당 함수 유효 범위의 최상단에 선언하는 것 
+`호이스팅(Hoisting)` 이란, 함수 안에 있는 `선언`들을 모두 끌어올려서 해당 함수 유효 범위의 최상단에 선언하는 것 
 
 아래는 <https://velog.io/@bathingape/JavaScript-var-let-const-%EC%B0%A8%EC%9D%B4%EC%A0%90>의 호이스팅 내용을 요약정리 한 것이다. 
 
