@@ -18,11 +18,11 @@ Strict 모드는 개발 모드에서만 활성화되기 때문에, 프로덕션 
 
 위와 같은 경우를 검사하고 경고하는데 사용됨 
 
-<pre>
+```
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-</pre>
+```
