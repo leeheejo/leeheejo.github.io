@@ -37,9 +37,7 @@ tmp2 = 'test2' // Uncaught TypeError:Assignment to constant variable.
 
 - const는 선언과 동시에 할당되어야 한다. (재선언과 재할당이 모두 불가하다.) 
 
-
-
-#호이스팅(Hoisting) 
+# 호이스팅(Hoisting)
 
 <https://ojava.tistory.com/144>
 <https://gist.github.com/LeoHeo/7c2a2a6dbcf80becaaa1e61e90091e5d>
