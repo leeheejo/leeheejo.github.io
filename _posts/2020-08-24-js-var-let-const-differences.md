@@ -8,6 +8,7 @@ categories: reactjs javascript
 1. var 
 - function-scoped 
 - 변수 재선언이 가능
+
 ```
 var tmp = 'hello world'
 console.log(tmp) //hello world
@@ -15,11 +16,13 @@ console.log(tmp) //hello world
 var tmp = 'hw'
 console.log(tmp) // hw
 ```
+
 -> 이 문제로 인해 ES6 이후에 `let`과 `const`가 추가 됨
 
 2. let, const 
 - block-scoped
 - let은 변수에 재할당 가능, const는 변수 재할당 불가능
+
 ```
 let tmp = 'test'
 let tmp = 'test2' // Uncaught SyntaxError: Identifier 'tmp' has already been declared
@@ -31,6 +34,7 @@ const tmp2 = 'test2' // Uncaught SyntaxError: Identifier 'tmp2' has already been
 tmp2 = 'test2' // Uncaught TypeError:Assignment to constant variable.
 
 ```
+
 - const는 선언과 동시에 할당되어야 한다. (재선언과 재할당이 모두 불가하다.) 
 
 #호이스팅(Hoisting) 
@@ -48,6 +52,7 @@ var foo;
 console.log(bar); // Error: Uncaught ReferenceError: bar is not defined
 let bar;
 ```
+
 위에서 보는 바와 같이 var은 undefined이 출력되나 let은 ReferenceError에러가 발생한다. 
 
 let으로 선언된 변수가 일시적 사각지대(Temporal Dead Zone; TDZ)에 빠지기 때문이다. 
