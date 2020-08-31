@@ -35,39 +35,54 @@ fsck [option] 장치명
 
 ## 옵션 
 
----
--a: 명령 ㅜ수행에 대한 확인 질문 없이 무조건 수행 (권장하지 않음)
+-a: 명령 수행에 대한 확인 질문 없이 무조건 수행 (권장하지 않음)
+
 -v: 점검 내역 상세 보기, 자세한 출력 
+
 -y: 모든 응답을 다 yes로 해서 자동으로 실행 (위에서 사용한 옵션) 
+
 -n: 모든 질문에 대한 응답을 no로 취급 
+
 -f: 파일 시스템의 이상 유무에 산관 없이 강제적으로 파일 시스템 체크) 
----
+
 
 
 ## 에러코드 
 
----
+
 0: No Errors
+
 1: Filesystem errors corrected 
+
 2: System should be rebooted
+
 4: Filesystem error left uncorrected
+
 8: Operational error
+
 16: Usage or syntax error
+
 32: Fsck canceled by user request
+
 128: Shared-library error
----
 
 
 ### 동작 단계 
 
----
+
 단계1: 블록들과 파일 크기 검사
+
 단계2a: 중복된 이름이 있는지 검사
+
 단계2b: 경로명 검사
+
 단계3: 연결성 검사
+
 단계3b: Shadows/ACLs 인증
+
 단계4: 참조 수 검사
+
 단계5: 싸이클 그룹 검사
----
+
 
 
