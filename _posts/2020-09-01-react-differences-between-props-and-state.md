@@ -11,7 +11,7 @@ categories: reactjs
 
 전달받은 데이터는 readonly 
 
-#state
+# state
 
 자신이 가지고 있는 값
 
