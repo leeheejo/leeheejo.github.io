@@ -8,16 +8,16 @@ Typo in static class property declaration react/no-typos
 
 ```
 //error
-MoviePoster.Prototype = {
+MoviePoster.PropTypes = {
     poster: PropTypes.string.isRequired
 }
 ```
 
-MoviePoster.Prototype -> MoviePoster.proptype 
+MoviePoster.PropTypes -> MoviePoster.propTypes 
 
 ```
 //success
-MoviePoster.prototype = {
+MoviePoster.propTypes = {
     poster: PropTypes.string.isRequired
 }
 ```
